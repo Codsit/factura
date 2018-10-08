@@ -16,8 +16,11 @@
         "rmccue/requests": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "classmap": ["src/Codsit/"]
+        "classmap": [
+            "src/Codsit/"
+        ],
+        "psr-4": {
+            "Codsit\\Codsit": "src/Codsit/"
         }
     }
 }

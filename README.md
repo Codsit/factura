@@ -1,7 +1,8 @@
 # Codsit-Factura PHP
 
-[![Latest Stable Version](https://packagist.org/packages/codsit/factura)](https://packagist.org/packages/codsit/factura)
-
+[![Latest Stable Version](https://poser.pugx.org/codsit/factura/v/stable)](https://packagist.org/packages/codsit/factura)
+[![Total Downloads](https://poser.pugx.org/codsit/factura/downloads)](https://packagist.org/packages/codsit/factura)
+[![License](https://poser.pugx.org/codsit/factura/license)](https://packagist.org/packages/codsit/factura)
 
 ## Requisitos
 

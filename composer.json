@@ -1,0 +1,20 @@
+{
+    "name": "codsit/facturape",
+    "description": "API Client",
+    "authors": [
+        {
+            "name": "Jhordy Huaman",
+            "email": "huamanjhordy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=5.6.0",
+        "rmccue/requests": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "classmap": ["src/Codsit/"]
+        }
+    }
+}

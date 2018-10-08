@@ -23,7 +23,7 @@ composer require codsit/factura dev-master
 ```json
 {
   "require": {
-    "culqi/culqi-php": "1.3.3"
+    "codsit/factura": "dev-master"
   }
 }
 ```
@@ -42,10 +42,10 @@ try {
     require '../vendor/autoload.php';
 
     // Api_key de la facturacion
-    $API_KEY = "aF9ON5CiUTxx9ra9JJtzixuxc02MRlmzQSs91JedVXh7qOKFlc";
+    $API_KEY = "aF9ON5CiUTxx9ra9JJtCREC465Ss91JedVXh7qOKFlc";  // Api_key (https://factura.codsit.com)
     $codsit = new Codsit(array('api_key' => $API_KEY));
 
-    // Creando Cargo a una tarjeta
+    // Creando Nueva Factura
     $factura = $codsit->Api->factura(array (
         'datos_de_la_factura_electronica' =>
             array (

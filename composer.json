@@ -20,7 +20,7 @@
             "src/Codsit/"
         ],
         "psr-4": {
-            "Codsit\\Codsit": "src/Codsit/"
+            "Codsit\\Codsit\\": "src/Codsit/"
         }
     }
 }

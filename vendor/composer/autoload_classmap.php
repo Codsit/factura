@@ -6,4 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Codsit\\Api' => $baseDir . '/src/Codsit/Api.php',
+    'Codsit\\Codsit' => $baseDir . '/src/Codsit/Codsit.php',
+    'Codsit\\Error\\AuthenticationError' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\CodsitException' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\InputValidationError' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\InvalidApiKey' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\MethodNotAllowed' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\NotFound' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\UnableToConnect' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Error\\UnhandledError' => $baseDir . '/src/Codsit/Error/Error.php',
+    'Codsit\\Resource' => $baseDir . '/src/Codsit/Resource.php',
 );

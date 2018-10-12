@@ -6,14 +6,21 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit44aa50f72a3a6970d9454bbde78ad03b
 {
-    public static $prefixesPsr0 = array (
-        'c' => 
+    public static $prefixLengthsPsr4 = array (
+        'C' => 
         array (
-            'classmap' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src/Codsit',
-            ),
+            'Codsit\\Codsit\\' => 14,
         ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Codsit\\Codsit\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Codsit',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
         'R' => 
         array (
             'Requests' => 
@@ -23,10 +30,27 @@ class ComposerStaticInit44aa50f72a3a6970d9454bbde78ad03b
         ),
     );
 
+    public static $classMap = array (
+        'Codsit\\Api' => __DIR__ . '/../..' . '/src/Codsit/Api.php',
+        'Codsit\\Codsit' => __DIR__ . '/../..' . '/src/Codsit/Codsit.php',
+        'Codsit\\Error\\AuthenticationError' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\CodsitException' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\InputValidationError' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\InvalidApiKey' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\MethodNotAllowed' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\NotFound' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\UnableToConnect' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Error\\UnhandledError' => __DIR__ . '/../..' . '/src/Codsit/Error/Error.php',
+        'Codsit\\Resource' => __DIR__ . '/../..' . '/src/Codsit/Resource.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit44aa50f72a3a6970d9454bbde78ad03b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit44aa50f72a3a6970d9454bbde78ad03b::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit44aa50f72a3a6970d9454bbde78ad03b::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit44aa50f72a3a6970d9454bbde78ad03b::$classMap;
 
         }, null, ClassLoader::class);
     }

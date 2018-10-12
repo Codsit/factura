@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d64d4b25e9adb38356556acb615deab5",
+    "content-hash": "b4a56e85b1fee819d602ad46a126565b",
     "packages": [
         {
             "name": "rmccue/requests",
-            "version": "dev-master",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmccue/Requests.git",
-                "reference": "4055bc412f128bb298735d5e1b0189eff41f1340"
+                "reference": "87932f52ffad70504d93f04f15690cf16a089546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmccue/Requests/zipball/4055bc412f128bb298735d5e1b0189eff41f1340",
-                "reference": "4055bc412f128bb298735d5e1b0189eff41f1340",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/87932f52ffad70504d93f04f15690cf16a089546",
+                "reference": "87932f52ffad70504d93f04f15690cf16a089546",
                 "shasum": ""
             },
             "require": {
@@ -53,19 +53,17 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2017-12-13T02:37:47+00:00"
+            "time": "2016-10-13T00:11:37+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "rmccue/requests": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.0"
+        "php": ">=5.3.0"
     },
     "platform-dev": []
 }

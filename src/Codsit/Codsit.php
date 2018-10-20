@@ -1,13 +1,11 @@
 <?php
 namespace Codsit;
-
 use Codsit\Error as Errors;
 
 class Codsit{
     //onst BASE_URL = 'http://soft-fe.test' ;
     const BASE_URL = 'https://factura.codsit.com' ;
     public $api_key;
-
     const API_VERSION = 'V0.1';
 
 
@@ -17,5 +15,6 @@ class Codsit{
             throw new Errors\InvalidApiKey();
         }
         $this->Api = new Api($this);
+        $this->SendXml = new SendXml($this);
     }
 }

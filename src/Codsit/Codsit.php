@@ -3,7 +3,7 @@ namespace Codsit;
 use Codsit\Error as Errors;
 
 class Codsit{
-    //onst BASE_URL = 'http://soft-fe.test' ;
+    //const BASE_URL = 'http://soft-fe.test' ;
 
     const BASE_URL = 'https://factura.codsit.com' ;
     public $api_key;
@@ -18,5 +18,7 @@ class Codsit{
 
         $this->Api = new Api($this);
         $this->Xml = new Xml($this);
+        $this->Boleta = new Boleta($this);
+        $this->Services = new Services($this);
     }
 }

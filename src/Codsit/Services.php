@@ -17,7 +17,7 @@ class Services extends Resource
         return $this->request("GET",self::URL_API."dni/".$numero_dni,$this->codsit->api_key);
     }
     public function Ruc($numero_ruc){
-        return $this->request("GET",self::URL_API."dni/".$numero_ruc,$this->codsit->api_key);
+        return $this->request("GET",self::URL_API."ruc/".$numero_ruc,$this->codsit->api_key);
     }
 
 }

@@ -37,7 +37,7 @@ class Resource {
             throw new Errors\UnableToConnect();
         }
         if ($response->status_code >= 200 && $response->status_code <= 206) {
-            return json_encode(json_decode($response->body));
+            return json_decode($response->body);
         }
         if ($response->status_code == 400) {
             throw new Errors\UnhandledError($response->body, $response->status_code);

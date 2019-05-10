@@ -3,9 +3,8 @@ namespace Codsit;
 use Codsit\Error as Errors;
 
 class Codsit{
-    //const BASE_URL = 'http://soft-fe.test' ;
 
-    const BASE_URL = 'https://factura.codsit.com' ;
+    const BASE_URL = 'https://fac.codsit.com' ;
     public $api_key;
     const API_VERSION = 'V0.1';
 

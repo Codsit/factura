@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa42401-db36-438a-a1aa-5179628f4dfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codsit/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codsit/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codsit/Codsit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codsit/Codsit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +41,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Codsit/Api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="213">
+                <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Codsit/Codsit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -78,10 +100,11 @@
         <option value="$PROJECT_DIR$/test/example.php" />
         <option value="$PROJECT_DIR$/src/Codsit/Xml.php" />
         <option value="$PROJECT_DIR$/src/Codsit/Boleta.php" />
-        <option value="$PROJECT_DIR$/src/Codsit/Codsit.php" />
         <option value="$PROJECT_DIR$/src/Codsit/Services.php" />
         <option value="$PROJECT_DIR$/src/Codsit/Resource.php" />
         <option value="$PROJECT_DIR$/src/Codsit/Api.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Codsit/Codsit.php" />
       </list>
     </option>
   </component>
@@ -107,19 +130,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="factura_composer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factura_composer" type="462c0819:PsiDirectoryNode" />
+              <item name="factura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factura" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="factura_composer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factura_composer" type="462c0819:PsiDirectoryNode" />
+              <item name="factura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="factura_composer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factura_composer" type="462c0819:PsiDirectoryNode" />
+              <item name="factura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factura" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Codsit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factura" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factura" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,6 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -184,6 +213,8 @@
       <workItem from="1542183948658" duration="5403000" />
       <workItem from="1552272698039" duration="721000" />
       <workItem from="1552376854590" duration="490000" />
+      <workItem from="1557181953998" duration="812000" />
+      <workItem from="1557509509449" duration="784000" />
     </task>
     <task id="LOCAL-00001" summary="name Composer">
       <created>1538960085906</created>
@@ -301,13 +332,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31788000" />
+    <option name="totallyTimeSpent" value="33384000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,14 +392,6 @@
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-306" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codsit/Error/Error.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -407,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codsit/Codsit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codsit/Xml.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -443,6 +459,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codsit/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Codsit/Boleta.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -450,10 +473,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Codsit/Api.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="213">
+            <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Codsit/Codsit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
